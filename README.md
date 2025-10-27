@@ -1,137 +1,235 @@
-🐳 Docker Foundations & Real-World Projects – 8-Week Syllabus
+# 🐳 Docker Foundations & Real-World Projects – 8 Week Syllabus
 
-Welcome to Month 1 & 2 of Docker Mastery – your complete hands-on journey from Docker basics to real-world DevOps projects.
-Each week includes 3 in-depth YouTube videos with practical demos, diagrams, and mini-projects.
+Welcome to the **Docker Foundations & Real-World Projects** course — a complete hands-on journey from Docker basics to production-ready projects.  
+Each week includes **3 in-depth videos**, detailed explanations, demos, and real-world examples.
 
-📅 Week 1 — Docker Fundamentals
+---
 
-🎥 Videos:
+## 📅 Course Overview
 
-What is Docker? Why DevOps Engineers Love It
+| Month | Focus Area                              | Weeks | Total Videos |
+|:------|:----------------------------------------|:------|:--------------|
+| Month 1 | Docker Foundations & Core Concepts     | 1–4   | 12 |
+| Month 2 | Advanced Docker & Real-World Projects  | 5–8   | 12 |
 
-Containers vs Virtual Machines
+📆 **Total Duration:** 8 Weeks  
+🎥 **Total Videos:** 24  
+💻 **Includes:** Hands-on labs, real-world projects, and CI/CD integrations.
 
-Why Docker matters for DevOps
+---
 
-Real-world examples & use cases
+## 🧭 Weekly Learning Roadmap
 
-Installing Docker on Windows, Mac, and Linux
+<details>
+<summary>📖 <strong>Week 1 — Docker Fundamentals</strong></summary>
 
-Step-by-step installation
+**🎥 Videos:**
+1. **What is Docker? Why DevOps Engineers Love It**  
+   - Containers vs Virtual Machines  
+   - Why Docker matters for DevOps  
+   - Real-world examples & use cases  
+2. **Installing Docker on Windows, Mac, and Linux**  
+   - Step-by-step installation  
+   - Docker Desktop vs Docker Engine  
+   - CLI verification & hello-world test  
+3. **Docker Architecture Explained (Client, Daemon, Images, Containers)**  
+   - Client–Server model  
+   - Docker Engine internals  
+   - Layered architecture  
 
-Docker Desktop vs Docker Engine
+</details>
 
-CLI verification & hello-world test
+---
 
-Docker Architecture Explained (Client, Daemon, Images, Containers)
+<details>
+<summary>⚙️ <strong>Week 2 — Working with Containers & Images</strong></summary>
 
-Client–Server model
+**🎥 Videos:**
+4. **Creating Your First Docker Container (Hello World)**  
+   - `docker run`, `ps`, `stop`, `rm` basics  
+   - Understanding container lifecycle  
+5. **Docker Images Explained: Build, Pull, and Push**  
+   - Docker Hub basics  
+   - Building and tagging images  
+   - Pushing & pulling images  
+6. **Dockerfile Deep Dive: Writing Your Own Image**  
+   - `FROM`, `RUN`, `CMD`, `ENTRYPOINT`, `COPY`, etc.  
+   - Build a custom web-app image  
 
-Docker Engine internals
+</details>
 
-Layered architecture
+---
 
-📅 Week 2 — Working with Containers & Images
+<details>
+<summary>🧱 <strong>Week 3 — Data, Networking & Compose</strong></summary>
 
-🎥 Videos:
-4. Creating Your First Docker Container (Hello World)
+**🎥 Videos:**
+7. **Volumes in Docker: Persisting Data**  
+   - Named vs Anonymous volumes  
+   - Bind mounts  
+   - Real-world volume usage  
+8. **Networking in Docker: Bridge, Host, None, and Custom Networks**  
+   - Docker default networks  
+   - Port mapping & custom bridges  
+9. **Docker Compose: Managing Multi-Container Applications**  
+   - `docker-compose.yml` basics  
+   - Services, networks, and volumes  
 
-docker run, ps, stop, rm basics
+</details>
 
-Understanding container lifecycle
+---
 
-Docker Images Explained: Build, Pull, and Push
+<details>
+<summary>🔐 <strong>Week 4 — Registries, Security & Mini Project</strong></summary>
 
-Docker Hub basics
+**🎥 Videos:**
+10. **Docker Registries: Docker Hub and Private Registry**  
+    - Push/Pull workflow  
+    - Setting up a private registry  
+11. **Securing Docker: Best Practices**  
+    - Image minimization & vulnerability scanning  
+    - Non-root containers & least privilege  
+12. **Mini Project: Deploy a Multi-Container Web App with Docker Compose**  
+    - Example: Node.js + Redis or Python + MySQL  
+    - Full stack demo  
 
-Building and tagging images
+</details>
 
-Pushing & pulling images
+---
 
-Dockerfile Deep Dive: Writing Your Own Image
+<details>
+<summary>🚀 <strong>Week 5 — Advanced Builds & Networking</strong></summary>
 
-FROM, RUN, CMD, ENTRYPOINT, COPY, etc.
+**🎥 Videos:**
+13. **Advanced Dockerfile Techniques: Multi-Stage Builds & Caching**  
+    - Optimize builds & reduce image size  
+14. **Docker Networking Deep Dive: Connecting Containers Across Hosts**  
+    - Overlay networks  
+    - Intro to Swarm basics  
+15. **Docker Logging & Monitoring: Best Practices**  
+    - Logging drivers  
+    - Monitoring tools & integration  
 
-Build a custom web-app image
+</details>
 
-📅 Week 3 — Data, Networking & Compose
+---
 
-🎥 Videos:
-7. Volumes in Docker: Persisting Data
+<details>
+<summary>⚡ <strong>Week 6 — CI/CD, Secrets & Security</strong></summary>
 
-Named vs Anonymous volumes
+**🎥 Videos:**
+16. **Docker and CI/CD: Build & Push Images in Azure DevOps Pipelines**  
+    - Automating Docker builds in pipelines  
+    - Push to registry from CI  
+17. **Docker Secrets & Config Management**  
+    - Managing sensitive data  
+    - Swarm configs & alternatives  
+18. **Docker Security: Scanning Images & Enforcing Policies**  
+    - Docker Bench  
+    - Security baselines & image compliance  
 
-Bind mounts
+</details>
 
-Real-world volume usage
+---
 
-Networking in Docker: Bridge, Host, None, and Custom Networks
+<details>
+<summary>🌍 <strong>Week 7 — Real-World Projects (Part 1)</strong></summary>
 
-Docker default networks
+**🎥 Videos:**
+19. **Project 1: Deploying a WordPress + MySQL Stack with Docker Compose**  
+    - Multi-container setup & persistent storage  
+20. **Project 2: Running a Python Flask App with Docker & Postgres**  
+    - Custom image build & network configuration  
+21. **Project 3: Hosting a Static Website on Nginx with Docker**  
+    - Bind mounts & content updates  
 
-Port mapping & custom bridges
+</details>
 
-Docker Compose: Managing Multi-Container Applications
+---
 
-docker-compose.yml basics
+<details>
+<summary>🎯 <strong>Week 8 — Real-World Projects (Part 2) & Next Steps</strong></summary>
 
-Services, networks, and volumes
+**🎥 Videos:**
+22. **CI/CD Pipeline for Dockerized App in Azure DevOps**  
+    - Build → Push → Deploy workflow  
+23. **Docker Troubleshooting: Common Issues & Fixes**  
+    - Container startup errors, ports, permissions  
+24. **Docker to Kubernetes: Preparing for the Next Step**  
+    - Why Kubernetes matters  
+    - Transition from containers to orchestration  
 
-📅 Week 4 — Registries, Security & Mini Project
+</details>
 
-🎥 Videos:
-10. Docker Registries: Docker Hub and Private Registry
-- Push/Pull workflow
-- Setting up a private registry
-11. Securing Docker: Best Practices
-- Image minimization & vulnerability scanning
-- Non-root containers & least privilege
-12. Mini Project: Deploy a Multi-Container Web App with Docker Compose
-- Example: Node.js + Redis or Python + MySQL
-- Full stack demo
+---
 
-📅 Week 5 — Advanced Builds & Networking
+## 🗂️ Repository Structure
+docker-course/
+│
+├── week-1/
+│ ├── video-1-what-is-docker/
+│ ├── video-2-installing-docker/
+│ └── video-3-docker-architecture/
+│
+├── week-2/
+│ ├── video-4-first-container/
+│ ├── video-5-docker-images/
+│ └── video-6-dockerfile-deep-dive/
+│
+├── week-3/
+│ ├── video-7-volumes/
+│ ├── video-8-networking/
+│ └── video-9-docker-compose/
+│
+├── week-4/
+│ ├── video-10-registries/
+│ ├── video-11-security/
+│ └── video-12-mini-project/
+│
+├── week-5/
+│ ├── video-13-advanced-dockerfile/
+│ ├── video-14-networking-deep-dive/
+│ └── video-15-logging-monitoring/
+│
+├── week-6/
+│ ├── video-16-cicd/
+│ ├── video-17-secrets-configs/
+│ └── video-18-security-policies/
+│
+├── week-7/
+│ ├── video-19-wordpress-mysql/
+│ ├── video-20-flask-postgres/
+│ └── video-21-nginx-static-site/
+│
+└── week-8/
+├── video-22-cicd-pipeline/
+├── video-23-troubleshooting/
+└── video-24-docker-to-kubernetes/
 
-🎥 Videos:
-13. Advanced Dockerfile Techniques: Multi-Stage Builds & Caching
-- Optimize builds & reduce image size
-14. Docker Networking Deep Dive: Connecting Containers Across Hosts
-- Overlay networks
-- Intro to Swarm basics
-15. Docker Logging & Monitoring: Best Practices
-- Logging drivers
-- Monitoring tools & integration
 
-📅 Week 6 — CI/CD, Secrets & Security
 
-🎥 Videos:
-16. Docker and CI/CD: Build & Push Images in Azure DevOps Pipelines
-- Automating Docker builds in pipelines
-- Push to registry from CI
-17. Docker Secrets & Config Management
-- Managing sensitive data
-- Swarm configs & alternatives
-18. Docker Security: Scanning Images & Enforcing Policies
-- Docker Bench
-- Security baselines & image compliance
 
-📅 Week 7 — Real-World Projects (Part 1)
+---
 
-🎥 Videos:
-19. Project 1: Deploying a WordPress + MySQL Stack with Docker Compose
-- Multi-container setup & persistent storage
-20. Project 2: Running a Python Flask App with Docker & Postgres
-- Custom image build & network configuration
-21. Project 3: Hosting a Static Website on Nginx with Docker
-- Bind mounts & content updates
+## 🧠 How to Use This Repository
 
-📅 Week 8 — Real-World Projects (Part 2) & Next Steps
+- 📺 Watch each video on **[CloudOpsCraft YouTube Channel](#)**  
+- 💻 Follow along with the **hands-on examples** provided in each folder  
+- 🧾 Check README inside each video folder for commands and explanations  
+- 🧩 Practice the weekly **mini-projects** to reinforce your learning  
 
-🎥 Videos:
-22. CI/CD Pipeline for Dockerized App in Azure DevOps
-- Build → Push → Deploy workflow
-23. Docker Troubleshooting: Common Issues & Fixes
-- Container startup errors, ports, permissions
-24. Docker to Kubernetes: Preparing for the Next Step
-- Why Kubernetes matters
-- Transition from containers to orchestration
+---
+
+## 🌐 Connect & Learn More
+
+- 🎥 YouTube: [CloudOpsCraft](#)  
+- 💼 LinkedIn: [Your LinkedIn Profile](#)  
+- 🧑‍💻 GitHub: [Your GitHub Profile](#)
+
+---
+
+> “Master Docker step-by-step — from understanding containers to deploying full production-grade apps.”  
+> — *CloudOpsCraft DevOps Series*
+
+
+
