@@ -163,54 +163,6 @@ Each week includes **3 in-depth videos**, detailed explanations, demos, and real
 
 ---
 
-## 🗂️ Repository Structure
-docker-course/
-│
-├── week-1/
-│ ├── video-1-what-is-docker/
-│ ├── video-2-installing-docker/
-│ └── video-3-docker-architecture/
-│
-├── week-2/
-│ ├── video-4-first-container/
-│ ├── video-5-docker-images/
-│ └── video-6-dockerfile-deep-dive/
-│
-├── week-3/
-│ ├── video-7-volumes/
-│ ├── video-8-networking/
-│ └── video-9-docker-compose/
-│
-├── week-4/
-│ ├── video-10-registries/
-│ ├── video-11-security/
-│ └── video-12-mini-project/
-│
-├── week-5/
-│ ├── video-13-advanced-dockerfile/
-│ ├── video-14-networking-deep-dive/
-│ └── video-15-logging-monitoring/
-│
-├── week-6/
-│ ├── video-16-cicd/
-│ ├── video-17-secrets-configs/
-│ └── video-18-security-policies/
-│
-├── week-7/
-│ ├── video-19-wordpress-mysql/
-│ ├── video-20-flask-postgres/
-│ └── video-21-nginx-static-site/
-│
-└── week-8/
-├── video-22-cicd-pipeline/
-├── video-23-troubleshooting/
-└── video-24-docker-to-kubernetes/
-
-
-
-
----
-
 ## 🧠 How to Use This Repository
 
 - 📺 Watch each video on **[CloudOpsCraft YouTube Channel](#)**  
@@ -222,9 +174,8 @@ docker-course/
 
 ## 🌐 Connect & Learn More
 
-- 🎥 YouTube: [CloudOpsCraft](#)  
-- 💼 LinkedIn: [Your LinkedIn Profile](#)  
-- 🧑‍💻 GitHub: [Your GitHub Profile](#)
+- 🎥 YouTube:  [https://www.youtube.com/@CloudOpsCraft](#)  
+- 💼 LinkedIn: [https://www.linkedin.com/feed/](#)  
 
 ---
 
