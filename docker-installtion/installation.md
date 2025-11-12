@@ -31,9 +31,3 @@ docker --version
 docker compose version
 docker run hello-world
 
-
----
-
-This version is **easy for beginners** — they can copy the entire block into their terminal and follow along.  
-
-If you want, I can also make an **even shorter “one-liner install command”** that runs everything automatically. Do you want me to do that too?
