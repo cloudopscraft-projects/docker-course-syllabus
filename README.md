@@ -10,10 +10,10 @@ Each week includes **3 in-depth videos**, detailed explanations, demos, and real
 | Month | Focus Area                              | Weeks | Total Videos |
 |:------|:----------------------------------------|:------|:--------------|
 | Month 1 | Docker Foundations & Core Concepts     | 1–4   | 12 |
-| Month 2 | Advanced Docker & Real-World Projects  | 5–8   | 12 |
+| Month 2 | Advanced Docker & Real-World Projects  | 5   | 4 |
 
-📆 **Total Duration:** 8 Weeks  
-🎥 **Total Videos:** 24  
+📆 **Total Duration:** 5 Weeks  
+🎥 **Total Videos:** 16
 💻 **Includes:** Hands-on labs, real-world projects, and CI/CD integrations.
 
 ---
@@ -97,67 +97,20 @@ Each week includes **3 in-depth videos**, detailed explanations, demos, and real
 
 ---
 
-<details>
-<summary>🚀 <strong>Week 5 — Advanced Builds & Networking</strong></summary>
+<details> <summary>🚀 <strong>Week 5 — Advanced Projects & CI/CD Integration</strong>
 
 **🎥 Videos:**
-13. **Advanced Dockerfile Techniques: Multi-Stage Builds & Caching**  
-    - Optimize builds & reduce image size  
-14. **Docker Networking Deep Dive: Connecting Containers Across Hosts**  
-    - Overlay networks  
-    - Intro to Swarm basics  
-15. **Docker Logging & Monitoring: Best Practices**  
-    - Logging drivers  
-    - Monitoring tools & integration  
+13. Project 1: Deploying a WordPress + MySQL Stack with Docker Compose
+- Multi-container setup & persistent storage
+14. Project 2: Running a Python Flask App with Docker & Postgres
+- Custom image build & network configuration
+15. Project 3: Hosting a Static Website on Nginx with Docker
+- Bind mounts & content updates
+16. CI/CD Pipeline for Dockerized App in DevOps
+- Build → Push → Deploy workflow
+17. Docker Troubleshooting: Common Issues & Fixes
+- Container startup errors, ports, permissions
 
-</details>
-
----
-
-<details>
-<summary>⚡ <strong>Week 6 — CI/CD, Secrets & Security</strong></summary>
-
-**🎥 Videos:**
-16. **Docker and CI/CD: Build & Push Images in Azure DevOps Pipelines**  
-    - Automating Docker builds in pipelines  
-    - Push to registry from CI  
-17. **Docker Secrets & Config Management**  
-    - Managing sensitive data  
-    - Swarm configs & alternatives  
-18. **Docker Security: Scanning Images & Enforcing Policies**  
-    - Docker Bench  
-    - Security baselines & image compliance  
-
-</details>
-
----
-
-<details>
-<summary>🌍 <strong>Week 7 — Real-World Projects (Part 1)</strong></summary>
-
-**🎥 Videos:**
-19. **Project 1: Deploying a WordPress + MySQL Stack with Docker Compose**  
-    - Multi-container setup & persistent storage  
-20. **Project 2: Running a Python Flask App with Docker & Postgres**  
-    - Custom image build & network configuration  
-21. **Project 3: Hosting a Static Website on Nginx with Docker**  
-    - Bind mounts & content updates  
-
-</details>
-
----
-
-<details>
-<summary>🎯 <strong>Week 8 — Real-World Projects (Part 2) & Next Steps</strong></summary>
-
-**🎥 Videos:**
-22. **CI/CD Pipeline for Dockerized App in Azure DevOps**  
-    - Build → Push → Deploy workflow  
-23. **Docker Troubleshooting: Common Issues & Fixes**  
-    - Container startup errors, ports, permissions  
-24. **Docker to Kubernetes: Preparing for the Next Step**  
-    - Why Kubernetes matters  
-    - Transition from containers to orchestration  
 
 </details>
 
