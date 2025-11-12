@@ -1,4 +1,4 @@
-# 🐳 Docker Foundations & Real-World Projects – 8 Week Syllabus
+# 🐳 Docker Foundations & Real-World Projects – 5 Week Syllabus(Updated syllabus)
 
 Welcome to the **Docker Foundations & Real-World Projects** course — a complete hands-on journey from Docker basics to production-ready projects.  
 Each week includes **3 in-depth videos**, detailed explanations, demos, and real-world examples.
