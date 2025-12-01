@@ -9,8 +9,8 @@ wget -qO - https://aquasecurity.github.io/trivy-repo/deb/public.key | sudo gpg -
 
 # add the Trivy repository to apt sources, referencing the signed keyring,
 # and using the current distro codename (lsb_release -sc)
-echo "deb [signed-by=/usr/share/keyrings/trivy.gpg] https://aquasecurity.github.io/trivy-repo/deb $(lsb_release -sc) main" \
-  | sudo tee /etc/apt/sources.list.d/trivy.list
+echo "deb [signed-by=/usr/share/keyrings/trivy.gpg] https://aquasecurity.github.io/trivy-repo/deb $(lsb_release -sc) main" | sudo tee /etc/apt/sources.list.d/trivy.list
+
 
 # update package lists again so apt knows about packages in the new repo
 sudo apt-get update -y
