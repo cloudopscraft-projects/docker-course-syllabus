@@ -3,18 +3,6 @@
 Welcome to the **Docker Foundations & Real-World Projects** course — a complete hands-on journey from Docker basics to production-ready projects.  
 Each week includes **3 in-depth videos**, detailed explanations, demos, and real-world examples.
 
----
-
-## 📅 Course Overview
-
-| Month | Focus Area                              | Weeks | Total Videos |
-|:------|:----------------------------------------|:------|:--------------|
-| Month 1 | Docker Foundations & Core Concepts     | 1–4   | 12 |
-| Month 2 | Advanced Docker & Real-World Projects  | 5   | 4 |
-
-📆 **Total Duration:** 5 Weeks  
-🎥 **Total Videos:** 16
-💻 **Includes:** Hands-on labs, real-world projects, and CI/CD integrations.
 
 ---
 
